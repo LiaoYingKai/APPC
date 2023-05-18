@@ -1,3 +1,3 @@
 <template>
-  <div class="bg-white w-full h-full">list</div>
+  <section class="flex-1 bg-white w-full h-full">list</section>
 </template>

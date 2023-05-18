@@ -6,13 +6,18 @@ const router = createRouter({
     {
       path: '/',
       redirect: {
-        name: 'collection'
+        name: 'dashboard'
       },
       children: [
         {
+          path: '',
+          name: 'dashboard',
+          component: () => import('../views/dashboard/Index.vue'),
+      },
+        {
           path: 'collection',
           name: 'collection',
-          component: () => import('../views/collection/index.vue'),
+          component: () => import('../views/collection/Index.vue'),
           redirect: {
             name: 'collection-list'
           },

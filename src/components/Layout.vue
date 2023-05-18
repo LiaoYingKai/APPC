@@ -10,7 +10,7 @@ import Breadcrumbs from './Breadcrumbs.vue'
     <section class="flex-1 flex flex-col">
       <Header />
       <Breadcrumbs/>
-      <slot class="flex-1"></slot>
+      <slot></slot>
     </section>
   </main>
 </template>
