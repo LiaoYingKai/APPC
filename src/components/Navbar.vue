@@ -126,7 +126,7 @@ const handleToggle = () => {
         <img :src="logoUrl" alt="logo" />
       </router-link>
     </div>
-    <ul class="overflow-y-scroll flex-1">
+    <ul class="overflow-y-scroll flex-1 scroll-hidden">
       <li v-for="route in routes" :key="route.name" class="mb-5">
         <input :id="route.name" type="checkbox" class="peer hidden" />
         <label

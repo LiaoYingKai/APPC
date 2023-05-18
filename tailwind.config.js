@@ -6,7 +6,13 @@ module.exports = {
     extend: {
       colors: {
         black: '#11263C',
-        'background-color': '#F2F2F7'
+        'deep-black': '#121212',
+        'gray': '#737791',
+        'background-color': '#F2F2F7',
+        'button-text-color': '#32395F'
+      },
+      borderWidth: {
+        1: '1px'
       }
     },
   },
