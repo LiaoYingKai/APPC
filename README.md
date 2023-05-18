@@ -1,6 +1,10 @@
 # appx-dashboard
 
-This template should help get you started developing with Vue 3 in Vite.
+Vite + vue3 + vue-router
+
+## Github Page
+
+[APPX](https://liaoyingkai.github.io/APPX/)
 
 ## Recommended IDE Setup
 
@@ -22,14 +26,11 @@ npm install
 npm run dev
 ```
 
-### Compile and Minify for Production
+### Deploy Flow
 
 ```sh
 npm run build
-```
-
-### Lint with [ESLint](https://eslint.org/)
-
-```sh
-npm run lint
+git add dist -f
+git commit -m <your commit message>
+git subtree push --prefix dist origin gh-pages
 ```
