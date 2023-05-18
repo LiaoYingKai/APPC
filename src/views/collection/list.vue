@@ -1,4 +1,5 @@
 <script setup>
+import PageContainer from '../../components/PageContainer.vue';
 import CollectionSearchBar from './components/CollectionSearchBar.vue'
 import CollectionTitle from './components/CollectionTitle.vue'
 import CollectionItem from './components/CollectionItem.vue'
@@ -32,11 +33,11 @@ const fakeData = [
 </script>
 
 <template>
-  <section class="flex-1 flex flex-col overflow-hidden">
+  <PageContainer>
     <CollectionSearchBar />
     <CollectionTitle />
     <div class="bg-white overflow-y-scroll scroll-hidden flex-1">
       <CollectionItem v-for="item in fakeData" :key="item.id" :dataSource="item"></CollectionItem>
     </div>
-  </section>
+  </PageContainer>
 </template>

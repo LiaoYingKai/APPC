@@ -8,11 +8,17 @@ const router = createRouter({
       redirect: {
         name: 'dashboard'
       },
+      meta: {
+        breadcrumbName: 'Home',
+      },
       children: [
         {
           path: '',
           name: 'dashboard',
-          component: () => import('../views/dashboard/Index.vue')
+          component: () => import('../views/dashboard/Index.vue'),
+          meta: {
+            breadcrumbName: 'Dashboard',
+          },
         },
         {
           path: 'collection',
@@ -25,7 +31,10 @@ const router = createRouter({
             {
               path: 'list',
               name: 'collection-list',
-              component: () => import('../views/collection/List.vue')
+              component: () => import('../views/collection/List.vue'),
+              meta: {
+                breadcrumbName: 'My Collection',
+              },
             }
           ]
         },
@@ -33,11 +42,17 @@ const router = createRouter({
           path: '/setting',
           name: 'setting',
           component: () => import('../views/setting/Index.vue'),
+          meta: {
+            breadcrumbName: 'Setting',
+          },
         },
         {
           path: '/notify',
           name: 'notify',
           component: () => import('../views/notify/Index.vue'),
+          meta: {
+            breadcrumbName: 'Notify',
+          },
       },
       ]
     }

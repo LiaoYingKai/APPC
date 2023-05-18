@@ -1,5 +1,10 @@
+<script setup>
+import Breadcrumbs from './Breadcrumbs.vue'
+</script>
+
 <template>
-  <section class="flex-1 bg-white w-full h-full">
+  <Breadcrumbs/>
+  <section class="flex-1  overflow-hidden">
     <slot></slot>
   </section>
 </template>

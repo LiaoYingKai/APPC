@@ -109,8 +109,6 @@ const routes = [
 
 const isOpen = ref(true)
 
-console.log(isOpen.value)
-
 const handleToggle = () => {
   isOpen.value = !isOpen.value
 }
