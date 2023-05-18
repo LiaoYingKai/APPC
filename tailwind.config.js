@@ -4,6 +4,13 @@ module.exports = {
   darkMode: false, // or 'media' or 'class'
   theme: {
     extend: {
+      width: {
+        0.25: '1px',
+        12.5: '50px',
+      },
+      height: {
+        12.5: '50px',
+      },
       colors: {
         black: '#11263C',
         'deep-black': '#121212',

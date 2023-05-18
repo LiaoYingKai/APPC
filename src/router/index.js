@@ -12,8 +12,8 @@ const router = createRouter({
         {
           path: '',
           name: 'dashboard',
-          component: () => import('../views/dashboard/Index.vue'),
-      },
+          component: () => import('../views/dashboard/Index.vue')
+        },
         {
           path: 'collection',
           name: 'collection',
@@ -28,7 +28,17 @@ const router = createRouter({
               component: () => import('../views/collection/List.vue')
             }
           ]
-        }
+        },
+        {
+          path: '/setting',
+          name: 'setting',
+          component: () => import('../views/setting/Index.vue'),
+        },
+        {
+          path: '/notify',
+          name: 'notify',
+          component: () => import('../views/notify/Index.vue'),
+      },
       ]
     }
   ]
