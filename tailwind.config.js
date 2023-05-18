@@ -9,7 +9,9 @@ module.exports = {
         'deep-black': '#121212',
         'gray': '#737791',
         'background-color': '#F2F2F7',
-        'button-text-color': '#32395F'
+        'button-text-color': '#32395F',
+        'tag-background-color': '#EDEDED',
+        'collection-item-border-color': '#D5D5DA'
       },
       borderWidth: {
         1: '1px'
