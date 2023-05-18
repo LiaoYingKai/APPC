@@ -1,0 +1,1 @@
+import{_ as a}from"./PageContainer-20be6a9c.js";import{o as e,c as t,w as o,a as r}from"./index-b45e59b8.js";const p={__name:"Index",setup(s){return(_,c)=>(e(),t(a,null,{default:o(()=>[r("dashboard")]),_:1}))}};export{p as default};

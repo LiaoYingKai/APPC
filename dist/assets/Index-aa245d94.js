@@ -1,0 +1,1 @@
+import{_ as e}from"./PageContainer-20be6a9c.js";import{o as a,c as t,w as o,a as r}from"./index-b45e59b8.js";const f={__name:"Index",setup(_){return(c,s)=>(a(),t(e,null,{default:o(()=>[r(" notify page")]),_:1}))}};export{f as default};
