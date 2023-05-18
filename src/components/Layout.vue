@@ -7,7 +7,7 @@ import Breadcrumbs from './Breadcrumbs.vue'
 <template>
   <main class="flex w-full h-full bg-background-color">
     <Navbar />
-    <section class="flex-1 flex flex-col">
+    <section class="flex-1 flex flex-col pr-5">
       <Header />
       <Breadcrumbs/>
       <slot></slot>
