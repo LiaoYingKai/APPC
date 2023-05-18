@@ -1,0 +1,1 @@
+import{_ as e}from"./PageContainer-20be6a9c.js";import{o as t,c as a,w as o,a as r}from"./index-b45e59b8.js";const m={__name:"Index",setup(s){return(_,c)=>(t(),a(e,null,{default:o(()=>[r(" setting page")]),_:1}))}};export{m as default};
